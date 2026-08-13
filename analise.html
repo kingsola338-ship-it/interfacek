@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Análise de Acessibilidade - Lighthouse</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <div class="container menu">
+
+            <a href="index.html" class="logo">
+                INTER<span>FACES</span>
+            </a>
+
+            <nav class="navegacao" aria-label="Navegação principal">
+                <a href="index.html">Início</a>
+                <a href="#resultados">Resultados</a>
+                <a href="#problemas">Problemas</a>
+                <a href="#dinamica">Dinâmica</a>
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- CAPA -->
+
+        <section class="hero">
+
+            <div class="container hero-conteudo">
+
+                <div class="hero-texto">
+
+                    <p class="etiqueta">
+                        ATIVIDADE 06
+                    </p>
+
+                    <h1>
+                        Análise de
+                        <span>Acessibilidade</span>
+                    </h1>
+
+                    <p class="subtitulo">
+                        Comparação de três sites utilizando o Lighthouse.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- INTRODUÇÃO -->
+
+        <section class="secao">
+
+            <div class="container">
+
+                <div class="titulo-secao">
+
+                    <p class="etiqueta">
+                        SOBRE A ANÁLISE
+                    </p>
+
+                    <h2>
+                        O que foi analisado?
+                    </h2>
+
+                </div>
+
+                <p>
+                    Nesta atividade foram analisados três sites utilizando
+                    a ferramenta Lighthouse, com foco na categoria
+                    Accessibility.
+                </p>
+
+                <p>
+                    O objetivo foi comparar os resultados e identificar
+                    possíveis problemas de acessibilidade nas páginas.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- RESULTADOS -->
+
+        <section id="resultados" class="secao interfaces">
+
+            <div class="container">
+
+                <div class="titulo-secao">
+
+                    <p class="etiqueta">
+                        LIGHTHOUSE
+                    </p>
+
+                    <h2>
+                        Resultados da análise
+                    </h2>
+
+                </div>
+
+
+                <div class="cards">
+
+                    <!-- W3C -->
+
+                    <article class="card">
+
+                        <div class="card-icone">
+                            🌐
+                        </div>
+
+                        <span class="numero">
+                            01
+                        </span>
+
+                        <h3>
+                            W3C
+                        </h3>
+
+                        <p>
+                            Site do World Wide Web Consortium.
+                        </p>
+
+                        <div class="nota">
+                            100/100
+                        </div>
+
+                        <p>
+                            <strong>Acessibilidade</strong>
+                        </p>
+
+                    </article>
+
+
+                    <!-- WIKIPEDIA -->
+
+                    <article class="card">
+
+                        <div class="card-icone">
+                            📚
+                        </div>
+
+                        <span class="numero">
+                            02
+                        </span>
+
+                        <h3>
+                            Wikipedia
+                        </h3>
+
+                        <p>
+                            Enciclopédia colaborativa disponível na Web.
+                        </p>
+
+                        <div class="nota">
+                            100/100
+                        </div>
+
+                        <p>
+                            <strong>Acessibilidade</strong>
+                        </p>
+
+                    </article>
+
+
+                    <!-- NOSSO SITE -->
+
+                    <article class="card">
+
+                        <div class="card-icone">
+                            💻
+                        </div>
+
+                        <span class="numero">
+                            03
+                        </span>
+
+                        <h3>
+                            Nosso site
+                        </h3>
+
+                        <p>
+                            Site desenvolvido pelo trio na Atividade 05.
+                        </p>
+
+                        <div class="nota">
+                            94/100
+                        </div>
+
+                        <p>
+                            <strong>Acessibilidade</strong>
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TABELA -->
+
+        <section class="secao">
+
+            <div class="container">
+
+                <div class="titulo-secao">
+
+                    <p class="etiqueta">
+                        COMPARAÇÃO
+                    </p>
+
+                    <h2>
+                        Comparação dos resultados
+                    </h2>
+
+                </div>
+
+
+                <div class="tabela-container">
+
+                    <table>
+
+                        <caption>
+                            Pontuação de acessibilidade no Lighthouse
+                        </caption>
+
+                        <thead>
+
+                            <tr>
+                                <th scope="col">Site</th>
+                                <th scope="col">Pontuação</th>
+                                <th scope="col">Resultado</th>
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <th scope="row">W3C</th>
+                                <td>100/100</td>
+                                <td>Excelente resultado</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Wikipedia</th>
+                                <td>100/100</td>
+                                <td>Excelente resultado</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Nosso site</th>
+                                <td>94/100</td>
+                                <td>Bom resultado, com melhoria necessária</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROBLEMA -->
+
+        <section id="problemas" class="secao acessibilidade">
+
+            <div class="container">
+
+                <div class="titulo-secao">
+
+                    <p class="etiqueta">
+                        NOSSO SITE
+                    </p>
+
+                    <h2>
+                        Problema encontrado
+                    </h2>
+
+                </div>
+
+
+                <article class="info-box">
+
+                    <h3>
+                        Contraste insuficiente
+                    </h3>
+
+                    <p>
+                        O Lighthouse identificou que algumas cores de
+                        primeiro plano e de fundo não possuem contraste
+                        suficiente.
+                    </p>
+
+                    <p>
+                        Textos com baixo contraste podem dificultar a
+                        leitura para muitas pessoas.
+                    </p>
+
+                    <h3>
+                        Elementos identificados
+                    </h3>
+
+                    <ul>
+
+                        <li>
+                            Link "Referências"
+                        </li>
+
+                        <li>
+                            Texto "WCAG 2.1"
+                        </li>
+
+                        <li>
+                            Parte da seção de acessibilidade
+                        </li>
+
+                    </ul>
+
+                    <h3>
+                        Solução recomendada
+                    </h3>
+
+                    <p>
+                        A recomendação é melhorar o contraste entre as
+                        cores do texto e do fundo, garantindo uma leitura
+                        mais fácil e acessível.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- VERIFICAÇÃO MANUAL -->
+
+        <section class="secao">
+
+            <div class="container">
+
+                <div class="titulo-secao">
+
+                    <p class="etiqueta">
+                        OBSERVAÇÃO
+                    </p>
+
+                    <h2>
+                        Verificações manuais
+                    </h2>
+
+                </div>
+
+                <p>
+                    O Lighthouse também apresenta verificações que não
+                    podem ser confirmadas completamente de forma automática.
+                </p>
+
+                <p>
+                    Por isso, uma boa pontuação não significa que um site
+                    seja totalmente acessível. A avaliação manual também
+                    é importante.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- DINÂMICA -->
+
+        <section id="dinamica" class="secao interfaces">
+
+            <div class="container">
+
+                <div class="titulo-secao">
+
+                    <p class="etiqueta">
+                        INTERAÇÃO
+                    </p>
+
+                    <h2>
+                        O Chute da Acessibilidade
+                    </h2>
+
+                    <p>
+                        Antes de mostrar os resultados reais, vamos testar
+                        os palpites da turma.
+                    </p>
+
+                </div>
+
+
+                <div class="cards">
+
+                    <article class="card">
+
+                        <div class="card-icone">
+                            🤔
+                        </div>
+
+                        <h3>
+                            Pergunta
+                        </h3>
+
+                        <p>
+                            Qual dos três sites vocês acham que possui
+                            a melhor pontuação de acessibilidade?
+                        </p>
+
+                    </article>
+
+
+                    <article class="card">
+
+                        <div class="card-icone">
+                            🏆
+                        </div>
+
+                        <h3>
+                            Melhor resultado
+                        </h3>
+
+                        <p>
+                            W3C e Wikipedia ficaram com 100/100.
+                        </p>
+
+                    </article>
+
+
+                    <article class="card">
+
+                        <div class="card-icone">
+                            🔎
+                        </div>
+
+                        <h3>
+                            Revelação
+                        </h3>
+
+                        <p>
+                            Nosso site ficou com 94/100 e apresentou
+                            um problema relacionado ao contraste.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- RELATÓRIOS -->
+
+        <section class="secao">
+
+            <div class="container">
+
+                <div class="titulo-secao">
+
+                    <p class="etiqueta">
+                        RELATÓRIOS
+                    </p>
+
+                    <h2>
+                        Relatórios do Lighthouse
+                    </h2>
+
+                </div>
+
+                <div class="info-box">
+
+                    <h3>
+                        📁 Relatórios completos
+                    </h3>
+
+                    <p>
+                        Os relatórios das três análises serão disponibilizados
+                        em uma pasta compactada no Google Drive.
+                    </p>
+
+                    <p>
+                        O link público será colocado aqui após o upload.
+                    </p>
+
+                    <a
+                        href="#"
+                        class="botao principal"
+                        aria-label="Acessar os relatórios do Lighthouse">
+                        Link dos relatórios
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONCLUSÃO -->
+
+        <section class="secao">
+
+            <div class="container">
+
+                <div class="titulo-secao centralizado">
+
+                    <p class="etiqueta">
+                        CONCLUSÃO
+                    </p>
+
+                    <h2>
+                        O que aprendemos?
+                    </h2>
+
+                    <p>
+                        A análise mostrou que ferramentas automatizadas
+                        podem ajudar a encontrar problemas de acessibilidade
+                        durante o desenvolvimento de sites.
+                    </p>
+
+                    <p>
+                        Também percebemos que uma boa pontuação não substitui
+                        testes manuais e a avaliação da experiência dos usuários.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="rodape">
+
+        <div class="container">
+
+            <h2>
+                INTER<span>FACES</span>
+            </h2>
+
+            <p>
+                Atividade 06 — Análise de Acessibilidade com Lighthouse.
+            </p>
+
+            <p>
+                © 2026 — Trabalho acadêmico.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
